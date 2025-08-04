@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webcam Inference Feed</title>
+</head>
+<body>
+<h1>Live Inference Webcam Feed</h1>
+<img src="/inference/latest/?{{random}}" alt="Inference" id="inferred" width="640" height="480">
+<script>
+    setInterval(function() {
+        document.getElementById("inferred").src = "/inference/latest/?" + Math.random();
+    }, 500);  // Refresh every 500ms
+</script>
+</body>
+</html>
