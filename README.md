@@ -13,8 +13,8 @@ This project demonstrates a simple microservices architecture using Docker Compo
 
 1. **Clone this repo:**
     ```sh
-    git clone <your-repo-url>
-    cd <project-directory>
+    git clone https://github.com/O-sama2004/two-microservices-with-kafka-django.git
+    cd two-microservices-with-kafka-django
     ```
 
 2. **Launch all services:**
