@@ -28,7 +28,7 @@ This project demonstrates a simple microservices architecture using Docker Compo
 ## Requirements
 
 - Docker and Docker Compose
-- (Linux only: a webcam at `/dev/video0`; otherwise, adjust/remove device mapping)
+- Linux only: a webcam at `/dev/video0`; otherwise, if you are using Windows or Mac, you will need to use a pre-recorded video and adjust the Docker files. (Ignore if you are using the machine directly) 
 
 ## Typical Folder Structure
 ```
