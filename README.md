@@ -31,7 +31,7 @@ This project demonstrates a simple microservices architecture using Docker Compo
 - (Linux only: a webcam at `/dev/video0`; otherwise, adjust/remove device mapping)
 
 ## Typical Folder Structure
-
+```
 project-root/
 │
 ├── capture_service/
@@ -62,14 +62,14 @@ project-root/
 │
 ├── docker-compose.yml
 └── README.md
-
+```
 
 ## Stopping Services
 
 ```sh
 docker compose down
 ```
-Troubleshooting
+### Troubleshooting
 Try ```sh docker compose down -v ```to clean up Docker volumes and try again
 If you can’t connect to Kafka, make sure all containers are running: docker compose ps
 If no image appears on the webpage, confirm inferenced_frame.jpg is being created in output/
