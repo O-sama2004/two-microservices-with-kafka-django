@@ -70,7 +70,7 @@ project-root/
 docker compose down
 ```
 ### Troubleshooting
-Try ```sh docker compose down -v ```to clean up Docker volumes and try again
-If you can’t connect to Kafka, make sure all containers are running: docker compose ps
-If no image appears on the webpage, confirm inferenced_frame.jpg is being created in output/
-If on Mac or Windows, you may need to remove/edit the devices: key in capture_service in docker-compose.yml
+- Try ```sh docker compose down -v ```to clean up Docker volumes and try again
+- If you can’t connect to Kafka, make sure all containers are running: docker compose ps
+- If no image appears on the webpage, confirm inferenced_frame.jpg is being created in output/
+- If on Mac or Windows, you may need to remove/edit the devices: key in capture_service in docker-compose.yml
